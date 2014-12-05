@@ -1,1 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" enable-background="new 0 0 140 140"><path fill="#CE1426" d="M0 0h140v140h-140v-140z"/><polygon fill="#fff" points="66.2,26.2 53.5,26 63.9,33.8 59.7,46.4 69.9,38.4 80.1,46.5 76.1,33.8 86.5,26.2 73.8,26.3 70.1,13.5"/><polygon fill="#fff" points="106.2,66.2 93.5,66 103.9,73.8 99.7,86.4 109.9,78.4 120.1,86.5 116.1,73.8 126.5,66.2 113.8,66.3 110.1,53.5"/><polygon fill="#fff" points="106.2,106.2 93.5,106 103.9,113.8 99.7,126.4 109.9,118.4 120.1,126.5 116.1,113.8 126.5,106.2 113.8,106.3 110.1,93.5"/><polygon fill="#fff" points="66.2,106.2 53.5,106 63.9,113.8 59.7,126.4 69.9,118.4 80.1,126.5 76.1,113.8 86.5,106.2 73.8,106.3 70.1,93.5"/><polygon fill="#fff" points="26.2,106.2 13.5,106 23.9,113.8 19.7,126.4 29.9,118.4 40.1,126.5 36.1,113.8 46.5,106.2 33.8,106.3 30.1,93.5"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 140 140"
+   enable-background="new 0 0 140 140"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   width="100%"
+   height="100%"
+   sodipodi:docname="hsg.svg">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="2.38396"
+     inkscape:cx="69.75779"
+     inkscape:cy="65.825394"
+     inkscape:window-x="500"
+     inkscape:window-y="358"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="everything"
+     style="display:inline">
+    <path
+       transform="translate(-0.113123,-0.927666)"
+       style="fill:#000000;fill-opacity:1"
+       d="M 66.2,26.2 53.5,26 l 10.4,7.8 -4.2,12.6 10.2,-8 10.2,8.1 -4,-12.7 10.4,-7.6 -12.7,0.1 -3.7,-12.8 z"
+       id="polygon6" />
+    <path
+       transform="translate(-0.113123,-0.927666)"
+       style="fill:#000000;fill-opacity:1"
+       d="M 106.2,66.2 93.5,66 l 10.4,7.8 -4.2,12.6 10.2,-8 10.2,8.1 -4,-12.7 10.4,-7.6 -12.7,0.1 -3.7,-12.8 z"
+       id="polygon8" />
+    <path
+       transform="translate(-0.113123,-0.927666)"
+       style="fill:#000000;fill-opacity:1"
+       d="m 106.2,106.2 -12.7,-0.2 10.4,7.8 -4.2,12.6 10.2,-8 10.2,8.1 -4,-12.7 10.4,-7.6 -12.7,0.1 -3.7,-12.8 z"
+       id="polygon10" />
+    <path
+       transform="translate(-0.113123,-0.927666)"
+       style="fill:#000000;fill-opacity:1"
+       d="m 66.2,106.2 -12.7,-0.2 10.4,7.8 -4.2,12.6 10.2,-8 10.2,8.1 -4,-12.7 10.4,-7.6 -12.7,0.1 -3.7,-12.8 z"
+       id="polygon12" />
+    <path
+       transform="translate(-0.113123,-0.927666)"
+       style="fill:#000000;fill-opacity:1"
+       d="m 26.2,106.2 -12.7,-0.2 10.4,7.8 -4.2,12.6 10.2,-8 10.2,8.1 -4,-12.7 10.4,-7.6 -12.7,0.1 -3.7,-12.8 z"
+       id="polygon14" />
+  </g>
+</svg>
