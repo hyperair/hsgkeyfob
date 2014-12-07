@@ -4,12 +4,14 @@ use <MCAD/shapes/polyhole.scad>
 rounding_r = 5;
 thickness = 1;
 
+target_length = 23;
+
 length = 39.5;
 ridge_width = 1;
 ridge_height = 2;
 
-keyhole_d = 5;
-keyhole_pos = [5, length - 5];
+keyhole_d = 3;
+keyhole_pos = [3, target_length - 3];
 
 $fa = 1;
 $fs = 0.5;
@@ -17,6 +19,7 @@ $fs = 0.5;
 function hypotenuse (l) = sqrt (l * l + l * l);
 
 module stars ()
+scale (target_length / length)
 translate ([0, 11.5])
 import ("hsg.dxf", layer="everything");
 
@@ -31,6 +34,7 @@ module inner_shell (w)
 }
 
 module base ()
+scale (target_length / length)
 hull () {
     translate ([0, length])
     mirror (Y)
@@ -48,11 +52,19 @@ hull () {
 
 module hole ()
 translate (keyhole_pos)
-polyhole (d=5, h=-1);
+circle (d=keyhole_d);
 
 module smoothen (r)
+smoothen_concave (r)
+smoothen_convex (r)
+children ();
+
+module smoothen_concave (r)
 offset (-r, join_type="round")
 offset (r, join_type="round")
+children ();
+
+module smoothen_convex (r)
 offset (r, join_type="round")
 offset (-r, join_type="round")
 children ();
@@ -70,20 +82,20 @@ color ("red") {
 
     // ridge
     linear_extrude (height=ridge_height)
-    inner_shell (ridge_width)
-    base ();
-
-    // keyhole collar
-
-    linear_extrude (height=ridge_height)
-    intersection () {
+    smoothen_concave (r=0.2) {
+        inner_shell (ridge_width)
         base ();
 
-        difference () {
-            translate ([0, length])
-            circle (r=hypotenuse (keyhole_pos[0] + keyhole_d / 2));
+        // keyhole collar
+        intersection () {
+            base ();
 
-            hole ();
+            difference () {
+                translate (keyhole_pos)
+                circle (r=keyhole_d / 2 + ridge_width * 1.5);
+
+                hole ();
+            }
         }
     }
 }
