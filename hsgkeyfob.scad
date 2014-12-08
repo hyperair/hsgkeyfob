@@ -2,13 +2,13 @@ include <MCAD/units/metric.scad>
 use <MCAD/shapes/polyhole.scad>
 
 rounding_r = 5;
-thickness = 1;
+thickness = 2;
 
 target_length = 23;
 
 length = 39.5;
 ridge_width = 1;
-ridge_height = 2;
+ridge_height = 0;
 
 keyhole_d = 3;
 keyhole_pos = [3, target_length - 3];
