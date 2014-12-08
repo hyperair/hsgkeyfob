@@ -10,8 +10,8 @@ length = 40;
 ridge_width = 1;
 ridge_height = 0;
 
-keyhole_d = 3;
-keyhole_pos = [3, target_length - 3];
+keyhole_d = 4;
+keyhole_pos = [4, target_length - 4];
 
 $fa = 1;
 $fs = 0.5;
