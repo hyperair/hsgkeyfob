@@ -4,9 +4,9 @@ use <MCAD/shapes/polyhole.scad>
 rounding_r = 5;
 thickness = 2;
 
-target_length = 23;
+target_length = 30;
 
-length = 39.5;
+length = 40;
 ridge_width = 1;
 ridge_height = 0;
 
